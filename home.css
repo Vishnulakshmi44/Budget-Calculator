@@ -1,0 +1,165 @@
+
+body{
+    /* margin: 0; */
+    width: 100%;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-image: linear-gradient(to bottom right, red , blue);
+    background-repeat: no-repeat; */
+}
+body button{
+    border: 2px solid rgb(104, 45, 45);
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+
+}
+body p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.605);
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:initial;
+    font-size: 10px;
+}
+.col-4{
+    /* border: 1px solid black; */
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.income-main{
+    display: flex;
+    justify-content: center;
+}
+.income{
+    border: 1px solid rgb(30, 29, 29);
+    background-color: rgba(3, 3, 3, 0.034);
+    border-radius: 35px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.income input{
+    height: 30px;
+    background-color: rgba(197, 186, 186, 0.868);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.income button{
+    background-color: rgba(25,135,84,255);
+
+}
+.income button:hover{
+    background-color:rgb(10, 114, 52);
+}
+
+
+.screen-main{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.screen{
+    border: 1px solid rgb(30, 29, 29);
+
+    background-color: rgba(3, 3, 3, 0.034);
+    border-radius: 35px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.screen input{
+    border-radius: 10px;
+    border: 0px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgba(25,135,84,255) ;
+    background-color:  rgba(197, 186, 186, 0.868);
+}
+
+
+.expense-main{
+    display: flex;
+    justify-content: center;
+}
+.expense{
+    border: 1px solid rgb(30, 29, 29);
+
+    background-color: rgba(3, 3, 3, 0.034);
+    border-radius: 35px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.expense input{
+    height: 30px;
+    background-color: rgba(197, 186, 186, 0.868);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.expense button{
+    background-color: rgba(220,53,69,255);
+
+}
+.expense button:hover{
+    background-color:rgba(255, 0, 0, 0.822);
+}
+
+.second-main{
+    font-weight: 600;
+    
+    
+}
+.second-main h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.second-main h4{
+    font-family: 'Raleway', sans-serif;
+
+}
+.tables{
+    display: flex;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+
+/* table{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+} */
+.remove-btn{
+    background-color: rgb(77, 66, 66);
+    margin-top: 40px;
+}
+.remove-btn:hover{
+    background-color: rgba(0, 0, 0, 0.87);
+   
+}
